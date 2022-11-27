@@ -1,4 +1,4 @@
-name: deploy project
+name: Output data
 on:
   issues:
     types:
