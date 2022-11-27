@@ -9,5 +9,5 @@ jobs:
     steps:
       - name: output github context
         run: echo "Issue triggered"
-          echo Title- "${{ github.event.title }}"
-          echo Body- "${{ github.event.body }}"
+          \n Title- "${{ toJSON(github.event.issue) }}"
+          \m Body- "${{ github.event.body }}"
